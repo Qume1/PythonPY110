@@ -9,14 +9,14 @@ files:
   visible: true
   placeholders:
   - offset: 149
-    length: 45
+    length: 25
     placeholder_text: '...  # TODO найти длину самого длинного слова'
     initial_state:
       length: 45
       offset: 149
     initialized_from_dependency: false
-    selected: false
-    status: Failed
+    selected: true
+    status: Solved
     encrypted_possible_answer: max(map(len, list_words))
   text: |
     def task() -> int:
@@ -37,12 +37,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Mon, 18 Apr 2022 17:38:00 UTC
-  expected: |
-    9
-  actual: |
-    Ellipsis
+  message: Congratulations!
+  time: Thu, 21 Apr 2022 10:15:09 UTC
 record: -1
